@@ -21,7 +21,7 @@ const Cart = (props) => {
     }
     return (
         <div className="cart">
-            <h4>Order Summary</h4>
+            <h4 className="text-danger">Order Summary</h4>
             <p>Item Ordered:{cart.length}</p>
             <p>Product Price: ${formatNumber(total)}</p>
             <p> <small>Shipping Cost: ${formatNumber(shippingCharge)}</small> </p>
